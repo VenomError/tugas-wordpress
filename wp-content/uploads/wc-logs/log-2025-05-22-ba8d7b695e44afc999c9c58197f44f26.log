@@ -1,0 +1,6 @@
+2025-05-22T03:16:40+00:00 WARNING Empty patterns received from the PTK Pattern Store
+2025-05-22T03:22:04+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-05-22T03:25:09+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-05-22T03:28:00+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-05-22T05:24:14+00:00 DEBUG Attempted to determine the edit URL for order 0, however the order does not exist.
+2025-05-22T05:32:03+00:00 INFO Payment gateway enabled: "Xendit"
