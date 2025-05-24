@@ -1,0 +1,141 @@
+/*
+Theme Name: Online Fashion
+Theme URI: https://www.eaglevisionit.com/downloads/online-fashion/
+Author: Eagle Vision IT
+Author URI: https://www.eaglevisionit.com
+Description: Introducing Online Fashion, a sleek and SEO-friendly eCommerce theme powered by WooCommerce and the WC Booster plugin. With fast-loading and SEO-optimized features, it enhances your site's visibility on Google. Tailored for online fashion retail, it seamlessly integrates payment options for your customers. Build your website effortlessly in minutes, no coding required, thanks to its Gutenberg-friendly design and SEO-standard coding. Enjoy additional features like WooCommerce integration, category collage, product slider, and gallery upon installation. See the real demo site at  https://demos.eaglevisionit.com/online-fashion/
+Requires at least: 5.9
+Tested up to: 6.5
+Requires PHP: 7.4
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: online-fashion
+Tags: editor-style, blog, custom-background, custom-logo, custom-menu, e-commerce, featured-images, footer-widgets, left-sidebar, one-column, right-sidebar, full-site-editing, threaded-comments, translation-ready, two-columns, wide-blocks, full-width-template, sticky-post, block-styles, block-patterns
+*/
+
+.wc-booster-category-collage-inner-wrapper:after {
+    content: "";
+    background: #16090982;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    width: 100%;
+    top: 0;
+}
+
+.wc-booster-category-collage-card-wrapper h2 {
+margin: 0;
+}
+
+.wc-booster-category-collage-inner-wrapper {
+position: relative;
+overflow: hidden;
+}
+
+.wc-booster-category-collage-inner-wrapper > * {
+
+position: relative;
+z-index: 9;
+}
+
+.wc-booster-category-collage-card-wrapper:nth-child(1) > div:after {
+    background: #6e54049c;
+}
+
+.wc-booster-category-collage-card-wrapper:nth-child(3) > div:after {
+    background: #0320b59c;
+}
+
+
+.wc-booster-category-collage-card-wrapper:nth-child(4) > div:after {
+    background: #6c009782;
+}
+
+.wc-booster-carousel-product-inner-wrapper.wc-booster-carousel-product-has-banner{
+border-radius: 6px;
+}
+
+footer.wp-block-template-part {
+    margin: 0;
+}
+div#sticky-header {
+    z-index: 9999 !important;
+}
+
+.wc-block-breadcrumbs {
+    text-align: center;
+}
+
+.wc-block-breadcrumbs a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sale span.discount-percent {
+    right: 5px !important;
+}
+
+.cat-item a::before, .wc-block-product-categories-list-item a::before,
+.taxonomy-category::before {
+    content: "\f022";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 6px;
+}
+
+.page-numbers {
+    background: var(--wp--preset--color--black);
+    color: var(--wp--preset--color--white);
+    padding: 8px 15px;
+    margin: 0px 1px;
+    line-height: 16px;
+border-radius: 5px;
+text-decoration: none;
+transition: all 0.4s ease;
+}
+.page-numbers:hover,
+.page-numbers.current{
+background-color: var(--wp--preset--color--base);
+ color: var(--wp--preset--color--black);
+}
+
+/*post date*/
+.wp-block-post-date::before{
+  content: "\f508";
+  font-family: 'Dashicons';
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.post-author-name.wp-block-post-author-name::before{
+  content: "\f110";
+  font-family: 'Dashicons';
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.woocommerce .wp-block-woocommerce-product-image-gallery span.onsale {
+    right: 30rem;
+}
+
+.woocommerce .quantity .qty {
+     width: 50px !important;
+
+}
+
+.woocommerce div.product form.cart .variations select {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.single-product .variations{
+    width: 50% !important;
+}
+
+.single-product .variations th{
+text-align: left;
+}
