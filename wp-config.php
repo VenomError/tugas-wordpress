@@ -1,5 +1,6 @@
 <?php
 define( 'WP_CACHE', true );
+define('FS_METHOD', 'direct');
 
 /**
  * The base configuration for WordPress
@@ -25,10 +26,10 @@ define( 'WP_CACHE', true );
 define( 'DB_NAME', '231013' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'admin' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'VenomError' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
